@@ -9,21 +9,21 @@ Run composer install or follow installation and steps on a library [page](https:
 App\Http\Controllers\Bitpay
 ```
 
-###Routes
+### Routes
 ```
 Route::get( "bitpay/create-invoice", [ "uses" => "Bitpay\\CreateInvoiceController@createInvoice" ] );
 Route::get( "bitpay/create-invoice-page", [ "uses" => "Bitpay\\CreateInvoiceController@createInvoicePage" ] );
 ```
 
-###Views
+### Views
 ```
 \bitpay\invoice.blade.php
 ```
 
-###Config
+### Config
 ```
 \config\bitpaymagic.php
 ```
 
-###Keys
+### Keys
 Bitpay keys are stored in storage/keys folder
